@@ -1,0 +1,7 @@
+implementation ('gun0912.ted:tedpermission:2.2.2'){
+        exclude group: 'com.android.support', module: 'support-compat'
+    }
+    
+    
+#implementation을 통해 권한 요청 라이브러리? 를 불러오는데 2.0.0으로 하면 해결이 어려운 오류(아마 구버전이라 안된듯)
+가 나서 2.2.2버전으로 하니 클래스 충돌이 발생해 exclude를 통해 해결
