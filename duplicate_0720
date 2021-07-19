@@ -1,0 +1,12 @@
+Duplicate class android.support.v4.app.INotificationSideChannel found in modules core-1.5.0-runtime (androidx.core:core:1.5.0) and support-v4-23.0.0-runtime (com.android.support:support-v4:23.0.0)
+Duplicate class android.support.v4.app.INotificationSideChannel$Stub found in modules core-1.5.0-runtime (androidx.core:core:1.5.0) and support-v4-23.0.0-runtime (com.android.support:support-v4:23.0.0)
+Duplicate class android.support.v4.app.INotificationSideChannel$Stub$Proxy found in modules core-1.5.0-runtime (androidx.core:core:1.5.0) and support-v4-23.0.0-runtime (com.android.support:support-v4:23.0.0)
+
+
+#위와 같은 에러 발생시....
+#gradle.properties 파일에서
+
+android.useAndroidX=true
+android.enableJetifier=true
+
+#위와 같은 내용 추가
